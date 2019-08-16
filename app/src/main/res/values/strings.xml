@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Spinneer</string>
+    <string name="valor1">Introduce primer valor</string>
+    <string name="valor2">Introduce segundo valor</string>
+    <string name="boton">Calcular</string>
+    <string name="Resultado">Resultado</string>
 </resources>
