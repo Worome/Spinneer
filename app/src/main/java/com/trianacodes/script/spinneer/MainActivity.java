@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
         String [] opciones = {"Sumar","Restar","Multiplicar", "Dividir"};
 
         // Creo la conexión entre la matriz y el spinner
-        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, opciones);
+        /* ArrayAdapter creado usando uno de los spinner por defecto ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opciones);*/
+        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, R.layout.spinner_item_proyecto_spinner, opciones);//Spinner personalizado
 
         // Relleno el spinner con el adaptador
         seleccion.setAdapter(adaptador);
